@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navigation{
@@ -14,6 +15,7 @@ align-items: center;
     color: white;
     display: flex;
     align-items: center;
+    margin-left: 140px;
 }
 .logo_white_box{
     background-color: white;
@@ -45,7 +47,7 @@ align-items: center;
     padding-bottom: 20px;
 }
 .hero_text> p{
-    font_size: 12px;
+    font-size: 12px;
     padding-bottom: 20px;
     width: 65%;
 }
@@ -57,9 +59,13 @@ align-items: center;
     border-radius: 6px;
 }
 .hero_img{
-    position: absolute;
-    top: -20px;
-    left: 180px;
+    position: relative;
+    
+}
+.hero_img > img{
+position: absolute;
+top: -20px;
+    left: -240px;
 }
 .nav_links_btn{
     padding: 12px 20px 12px 12px;
